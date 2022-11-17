@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,300,0,0" /> 
+</head>
+<body>
+    
+
+<div class="login-card-container">
+    <div class="login-card">
+        <div class="login-card-logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="login-card-header">
+            <h1>Sign In</h1>
+            <div>Please login to use platform</div>
+        </div>
+        <form class="login-card-form">
+            <div class="form-item">
+                <span class="form-item-icon material-symbols-rounded">mail</span>
+            <input type="text" placeholder="Enter Email" required autofocus>
+            </div>
+            <div class="form-item">
+                <span class="form-item-icon material-symbols-rounded">lock</span>
+                <input type="password" placeholder="Enter Password" required>
+            </div>
+            <div class="form-item-other">
+                <div class="checkbox">
+                    <input type="checkbox" id="rememberMeCheckbox">
+                    <label for="rememberMeCheckbox">Remember Me</label>
+                </div>
+                <a href="#">I Forgot my Password!</a>
+            </div>
+            <button type="submit">Sign In</button>
+        </form>
+        <div class="login-card-footer">
+            Don't have an account? <a href="#">Create a Free Account</a>.
+        </div>
+    </div>
+    <div class="login-card-social">
+        <div>Other Sign in Platform</div>
+        <div class="login-card-social-btn">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-meta" width="24" height="24"
+                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                        d="M12 10.174c1.766 -2.784 3.315 -4.174 4.648 -4.174c2 0 3.263 2.213 4 5.217c.704 2.869 .5 6.783 -2 6.783c-1.114 0 -2.648 -1.565 -4.148 -3.652a27.627 27.627 0 0 1 -2.5 -4.174z">
+                    </path>
+                    <path
+                        d="M12 10.174c-1.766 -2.784 -3.315 -4.174 -4.648 -4.174c-2 0 -3.263 2.213 -4 5.217c-.704 2.869 -.5 6.783 2 6.783c1.114 0 2.648 -1.565 4.148 -3.652c1 -1.391 1.833 -2.783 2.5 -4.174z">
+                    </path>
+                </svg>
+            </a>
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google" width="24" height="24"
+                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M17.788 5.108a9 9 0 1 0 3.212 6.892h-8"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
